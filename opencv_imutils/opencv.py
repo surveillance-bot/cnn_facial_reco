@@ -1,6 +1,6 @@
 import cv2
 
-vidPath = r"C:\Users\daksh\Desktop\VSCode\SurveillanceBot\cnn_facial_reco\opencv_imutils\vid.mp4"
+vidPath = r"path\to\video"
 
 video = cv2.VideoCapture(vidPath)
 length = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
